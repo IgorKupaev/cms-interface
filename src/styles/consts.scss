@@ -1,0 +1,44 @@
+$color_purple: rgb(226, 21, 226);
+$color_lightgray: #e5e5e5;
+$color_white: #fafafa;
+
+$fontSize_big: 24px;
+$fontSize_medium: 18px;
+$fontSize_small: 14px;
+
+$containerSize_normal: 1280px;
+
+@mixin basicButton($fontSize) {
+  padding: 5px 15px;
+  font-size: $fontSize;
+  background-color: $color_lightgray;
+  border-radius: 5px;
+  box-shadow: 1px 0 3px #000;
+  cursor: pointer;
+  transition: all .2s ease;
+  user-select: none;
+  outline: none;
+  border: none;
+  &:hover {
+    background-color: $color_white;
+  }
+  &:active {
+    background-color: $color_purple;
+    color: $color_white;
+  }
+}
+
+@mixin basicTitle($fontSize) {
+  font-size: $fontSize;
+  padding: 5px 15px;
+}
+
+@mixin highligh($color) {
+  font-weight: bold;
+  color: $color;
+}
+
+@mixin container($size) {
+  max-width: $size;
+  margin: 0 auto;
+}

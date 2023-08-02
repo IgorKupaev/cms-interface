@@ -1,0 +1,5 @@
+@import '../../styles/consts.scss';
+
+.mainContainer {
+  @include container($containerSize_normal);
+}

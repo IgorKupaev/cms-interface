@@ -1,0 +1,20 @@
+@import '../../styles/consts.scss';
+.targets {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.target {
+  @include basicButton($fontSize_medium);
+  margin: 0 9px;
+}
+.infoBlock {
+  @include basicTitle($fontSize_big);
+  margin-bottom: 10px;
+}
+.infoBlockTitle {
+  margin-right: 15px;
+}
+.infoBlockValue {
+  @include highligh($color_purple);
+}

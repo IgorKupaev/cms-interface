@@ -1,0 +1,163 @@
+{
+  "routes": [
+    { "id": 1, "route": "/auth", "pageId": 4 },
+    { "id": 2, "route": "/posters", "pageId": 5 },
+    { "id": 3, "route": "/about", "pageId": 6 }
+  ],
+  "pages": [
+    {
+      "id": 6,
+      "node": {
+        "value": "div",
+        "props": { "className": "page", "style": { "background": "yellowgreen" } },
+        "children": [
+          {
+            "value": "h1",
+            "props": { "className": "title", "style": { "textAlign": "center", "color": "blue" } },
+            "children": { "value": "span", "props": {}, "children": "About" }
+          },
+          { "value": "h1", "props": { "className": "title", "style": { "color": "blue" } }, "children": "Second one" }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "node": {
+        "value": "div",
+        "props": { "className": "page", "style": { "background": "yellowgreen" } },
+        "children": [
+          {
+            "value": "h1",
+            "props": { "className": "title", "style": { "textAlign": "center" } },
+            "children": "Posters"
+          },
+          {
+            "value": "div",
+            "props": {
+              "style": {
+                "color": "yellowgreen",
+                "background": "#000",
+                "minHeight": "91vh",
+                "display": "flex",
+                "justifyContent": "space-between"
+              }
+            },
+            "children": [
+              {
+                "value": "button",
+                "props": {
+                  "style": {
+                    "fontSize": 40,
+                    "fontWeight": "bold",
+                    "background": "#414141",
+                    "color": "#fff",
+                    "padding": "5px 15px",
+                    "border": "3px solid #fff",
+                    "margin": 5,
+                    "maxHeight": 70
+                  }
+                },
+                "children": "Click me"
+              },
+              {
+                "value": "button",
+                "props": {
+                  "style": {
+                    "fontSize": 40,
+                    "fontWeight": "bold",
+                    "background": "#414141",
+                    "color": "#fff",
+                    "padding": "5px 15px",
+                    "border": "3px solid #fff",
+                    "margin": 5,
+                    "maxHeight": 70
+                  }
+                },
+                "children": "Click me"
+              },
+              {
+                "value": "button",
+                "props": {
+                  "style": {
+                    "fontSize": 40,
+                    "fontWeight": "bold",
+                    "background": "#414141",
+                    "color": "#fff",
+                    "padding": "5px 15px",
+                    "border": "3px solid #fff",
+                    "margin": 5,
+                    "maxHeight": 70
+                  }
+                },
+                "children": "Click me"
+              },
+              {
+                "value": "button",
+                "props": {
+                  "style": {
+                    "fontSize": 40,
+                    "fontWeight": "bold",
+                    "background": "#414141",
+                    "color": "#fff",
+                    "padding": "5px 15px",
+                    "border": "3px solid #fff",
+                    "margin": 5,
+                    "maxHeight": 70
+                  }
+                },
+                "children": "Click me"
+              },
+              {
+                "value": "button",
+                "props": {
+                  "style": {
+                    "fontSize": 40,
+                    "fontWeight": "bold",
+                    "background": "#414141",
+                    "color": "#fff",
+                    "padding": "5px 15px",
+                    "border": "3px solid #fff",
+                    "margin": 5,
+                    "maxHeight": 70
+                  }
+                },
+                "children": "Click me"
+              },
+              {
+                "value": "button",
+                "props": {
+                  "style": {
+                    "fontSize": 40,
+                    "fontWeight": "bold",
+                    "background": "#414141",
+                    "color": "#fff",
+                    "padding": "5px 15px",
+                    "border": "3px solid #fff",
+                    "margin": 5,
+                    "maxHeight": 70
+                  }
+                },
+                "children": "Click me"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "node": {
+        "value": "div",
+        "props": { "className": "page", "style": { "background": "yellowgreen" } },
+        "children": [
+          {
+            "value": "h1",
+            "props": { "className": "title", "style": { "textAlign": "center", "color": "blue" } },
+            "children": "Auth"
+          },
+          { "value": "h1", "props": { "className": "title", "style": { "color": "blue" } }, "children": "Second auth" }
+        ]
+      }
+    }
+  ]
+}
